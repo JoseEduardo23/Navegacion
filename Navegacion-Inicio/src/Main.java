@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 
+import static sun.tools.jconsole.inspector.XDataViewer.dispose;
+
 public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame("VEHICULOS");
@@ -10,7 +12,6 @@ public class Main {
         frame.setPreferredSize(new Dimension(550, 300));
         frame.pack();
         frame.setLocationRelativeTo(null);
-
         frame.setVisible(true);
     }
 }
