@@ -1,12 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form2">
-  <grid id="27dc6" binding="MainPanel2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="MainPanel2" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="17" y="9" width="576" height="553"/>
     </constraints>
     <properties/>
     <border type="none"/>
-    <children/>
+    <children>
+      <component id="fa043" class="javax.swing.JTextArea" binding="Texto">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <lineWrap value="true"/>
+          <text value="Mi nombre es Jose Eduardo Lincango Flores, soy proveniente de Quito Ecuador, naci en el año 2004, actualmente tengo 20 años de edad y estudio en la Escuela Politecnica Nacional, sigo la carrera de desarrollo de software, actualmente estoy cursando mi tercer semestre en esta carrera y cabe decir que es interesante y complicado al mismo tiempo, a lo largo del año y medio que llevo en esta universidad logre adquirir muchos conocimientos a cerca de la programacion, aunque este sueño de ser programador surgio cuando tenia 10 años de edad, me entusiasmaba mucho en aprender sobre como programar o el funcionamiento que estos tenian, a los 12 años se me nego la entrada a un colegio tecnico en donde se aprendia a programar, este suceso me afecto un poco debido a que mi sueño es ser un buen programador, poco tiempo despues, tres años despues para ser exacto, logre ingresar e un colegio tecnico en el cual inicie mi aprendizaje en el campo de la programacion, aprendi a programar en el lenguaje estandart C, practicamente dedicado a programar microcontroladores tipo PIC, despues de un año ingrese a aprender el lenguaje de C++ respectivo de Arduino IDE, en donde se establecieron mis campos y sueños de seguir aprendiendo a programar en distintos lenguajes, al cabo de 2 años me gradue como Tecnico Industrial en Electronica de consumo y en menos de 5 meses ingrese a la Universidad en donde seguiria mis sueños de convertirme en programador, actualmente conozco mas lenguajes de programacion como por ejemplo: Python, C++, Java, HTML, JavaScript, para estilos CSS, lo cual me sigue inspirando a mejorar como un futuro profesional.   "/>
+          <wrapStyleWord value="true"/>
+        </properties>
+      </component>
+      <component id="d9686" class="javax.swing.JLabel" binding="txt">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BIBLIOGRAFIA"/>
+        </properties>
+      </component>
+      <hspacer id="9d29b">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1502f">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="398d6">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="25c9a">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="ad53c">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
   </grid>
 </form>
