@@ -1,5 +1,6 @@
 import javax.swing.*;
 
 public class Form3 {
-    private JPanel MainPanel3;
+    public JPanel MainPanel3;
+    private JButton regresarButton;
 }
